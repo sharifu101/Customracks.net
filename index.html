@@ -50,10 +50,35 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-      Optimal Custom Racks LLC - 2025 All Rights Reserved
-    </footer>
+
+
+
+<!-- ...[existing code above remains unchanged] -->
+
+<!-- Quote Form Modal -->
+<div class="form-modal" id="quoteForm">
+  <div class="form-content">
+    <span class="close-btn">&times;</span>
+    <h2>Request a Quote</h2>
+    <form action="https://formspree.io/f/your-form-id" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="text" name="city_zip" placeholder="City / ZIP Code" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="tel" name="phone" placeholder="Cell Phone Number" required>
+      <textarea name="storage_details" placeholder="Size / Type of Storage Rack" required></textarea>
+      <button type="submit">Send</button>
+    </form>
   </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  Optimal Custom Racks LLC - 2025 All Rights Reserved
+</footer>
+
+<!-- Script -->
+<script src="script.js"></script>
+
+
 </body>
 </html>
